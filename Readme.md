@@ -14,7 +14,7 @@
 ;Retorna '(a b c (1 5 10))
 ```
 
-###Ejercicio 2
+### Ejercicio 2
 
 (list-tails lista) que recibe como parámetro una lista y retorna una lista de todas las sublistas
 de elementos consecutivos en lista.
