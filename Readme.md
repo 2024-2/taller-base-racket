@@ -8,10 +8,10 @@
 (indexado desde cero) con x.
 ```racket
 (list-set '(a b c d) 2 '(1 2))
-#Retorna '(a b (1 2) d)
+;Retorna '(a b (1 2) d)
 
 (list-set '(a b c d) 3 '(1 5 10))
-#Retorna '(a b c (1 5 10))
+;Retorna '(a b c (1 5 10))
 ```
 
 ###Ejercicio 2
