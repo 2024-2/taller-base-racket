@@ -21,9 +21,9 @@ de elementos consecutivos en lista.
 
 ```racket
 (list-tails '(1 2 3 4 5))
-#Retorna ((1 2 3 4 5) (2 3 4 5) (3 4 5) (4 5) (5))
+;Retorna ((1 2 3 4 5) (2 3 4 5) (3 4 5) (4 5) (5))
 (list-tails '(1 a (e 4) 5 v))
-#Retorna '((1 a (e 4) 5 v) (a (e 4) 5 v) ((e 4) 5 v) (5 v) (v))
+;Retorna '((1 a (e 4) 5 v) (a (e 4) 5 v) ((e 4) 5 v) (5 v) (v))
 ```
 ### Ejercicio 3
 
@@ -31,9 +31,9 @@ de elementos consecutivos en lista.
 
 ```racket
 (repeat-list '(1 2 3) 3)
-#Retorna '((1 1 1) (2 2 2) (3 3 3))
+;Retorna '((1 1 1) (2 2 2) (3 3 3))
 (repeat-list '(1 (2 3) 3 4 (1 2)) 2)
-#Retorna '((1 1) ((2 3) (2 3)) (3 3) (4 4) ((1 2) (1 2)) )
+;Retorna '((1 1) ((2 3) (2 3)) (3 3) (4 4) ((1 2) (1 2)) )
 ```
 
 ### Ejercicio 4
@@ -41,7 +41,7 @@ de elementos consecutivos en lista.
 
 ```racket
 (list-facts 5)
-#Retorna '(1 1 2 6 24 120)
+;Retorna '(1 1 2 6 24 120)
 ```
 
 
